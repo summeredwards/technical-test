@@ -1,0 +1,61 @@
+@import url("https://use.typekit.net/vgh8ppj.css");
+
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+#lost-img{
+	position: relative;
+	background-image: url("img/mirror.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 705px;
+}
+
+.bottom-left{
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+
+.images{
+	text-align: center;
+	padding-top: 40px;
+}
+
+.title{
+	/* Dax Pro Extra Bold */
+	font-family: ff-dax-pro, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+
+	padding-left: 30px;
+}
+
+.body-text{
+	/* Guyot Regular */
+	font-family: guyot-headline, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+	padding-left: 30px;
+	line-height: 22px;
+}
+
+.body-text-light{
+	/* Guyot Light */
+	font-family: guyot-headline, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	line-height: 25px;
+}
+
+.white{
+	color: white;
+}
